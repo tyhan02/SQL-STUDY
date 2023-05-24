@@ -6,7 +6,18 @@ select empno, ename, sal, ratio_to_report(sal) over () as  비율
 from emp
 where deptno =20 ;
 
+select sum(sal) as "합계"
+from emp
+where deptno =20;
+
+
+
+
+
 
 select ename, empno, sal, ratio_to_report(sal) over () as  비율, sal/sum(sal) over () as "비교비율"
 from emp
 where deptno = 20;
+
+
+
