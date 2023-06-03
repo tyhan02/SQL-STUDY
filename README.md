@@ -60,9 +60,3 @@ insert into salgrade  values(5,3001,9999);
 
 commit;
 
-
-
-
-2023-05-23 
-
-● SUM OVER (누적치 계산)
